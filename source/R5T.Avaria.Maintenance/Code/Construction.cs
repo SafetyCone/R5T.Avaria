@@ -40,11 +40,9 @@ namespace R5T.Avaria.Maintenance
             Console.WriteLine($"Current executable file path:\n{currentExecutableFilePath}");
 
             var solutionFilePathProvider = new DevelopmentSolutionFilePathProvider();
-
-            var solutionFilePath = solutionFilePathProvider.GetSolutionFilePath(currentExecutableFilePath, @"R5T.Avaria.sln");
-
             var gitHubAccountDirectoryPathProvider = new StandardGitHubAccountDirectoryPathProvider();
 
+            var solutionFilePath = solutionFilePathProvider.GetSolutionFilePath(currentExecutableFilePath, @"R5T.Avaria.sln");
             var gitHubAccountDirectoryPath = gitHubAccountDirectoryPathProvider.GetGitHubAccountDirectoryPath(solutionFilePath);
 
             Console.WriteLine($"GitHub account directory path:\n{gitHubAccountDirectoryPath}");

@@ -6,7 +6,7 @@ using PathUtilities = R5T.NetStandard.IO.Paths.Utilities;
 namespace R5T.Avaria
 {
     /// <summary>
-    /// Provides the GitHub account directory path assuming files are organized as:
+    /// Provides the GitHub account directory path from the solution file path assuming files are organized as:
     ///     ../{GitHub}/GitHub Account/Repository Directory/source/Solution file
     /// </summary>
     public class StandardGitHubAccountDirectoryPathProvider : IGitHubAccountDirectoryPathProvider

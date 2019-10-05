@@ -6,8 +6,9 @@ using PathUtilities = R5T.NetStandard.IO.Paths.Utilities;
 namespace R5T.Avaria
 {
     /// <summary>
-    /// Gets the solution file path assuming the directory structure:
+    /// Gets the solution file path from the current executable's file path assuming the directory structure:
     ///     ../Solution Directory/Project Directory/bin/Debug/netcoreapp2.2/executable file
+    /// Solution file natm is required since there might be multiple solution files.
     /// </summary>
     public class DevelopmentSolutionFilePathProvider : ISolutionFilePathProvider
     {
