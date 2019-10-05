@@ -1,0 +1,5 @@
+﻿R5T.Avaria.Maintenance - A maintenance console app for the R5T.Avaria library.
+
+Goals:
+
+* Find own solution file.
