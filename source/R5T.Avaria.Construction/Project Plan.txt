@@ -1,0 +1,4 @@
+R5T.Avaria.Construction - A construction console-app for the library R5T.Avaria.
+
+Goals
+
