@@ -6,6 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.NetStandard.IO.Paths.Types\source\R5T.NetStandard.IO.Paths.Types\R5T.NetStandard.IO.Paths.Types.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Private.Virconium\source\R5T.Private.Virconium.Lib\R5T.Private.Virconium.Lib.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Code\Extensions\" />
