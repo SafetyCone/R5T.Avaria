@@ -2,3 +2,7 @@ R5T.Avaria - A codenamed experiment for creating a maintenance library.
 
 Goals
 
+* Add Jerusalem functionality to allow adding different project types just the way I like them.
+* Add Virconium functionality to allow adding a dependency, then automatically add all missing dependencies of the dependency, or removing a dependency, and then automatically removing all extraneous dependencies.
+* Add Eburacum functionality to allow automatic versioning and packaging of NuGet packages, plus push to a local or remote file-system, or to NuGet.org.
+* Add Antium functionality to allow building and deploying (via copying of binaries) to a local or remote file-system.
